@@ -1,0 +1,127 @@
+
+
+body{
+	margin: 0;
+	background-color: rgba(0, 0, 0, 1.0);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	grid-template-rows: auto 1fr auto;
+}
+
+
+
+
+.slider{
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 20s infinite;
+	animation-direction: alternate;
+
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+	color: orange;
+	
+}
+
+.slider img {
+	width: 50%;
+
+
+}
+
+
+@keyframes cambio{
+	0% {margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100%{margin-left: -300%;}
+}
+
+strong {
+
+	color: orange;
+
+}
+
+p{
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+	
+	color: orange;
+}
+
+img{
+
+	width: auto;
+	height: auto;
+}
+
+footer {
+	color: white;
+	padding:1em 0;
+	background-color: orange;
+	margin-top: auto;
+}
+
+.container–body{
+
+	display: flex;
+}
